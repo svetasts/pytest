@@ -22,5 +22,5 @@ proverka = WebDriverWait(browser, 10).until(
 
 
 proverka1 = "Мебель"
-assert proverka == proverka1, f"test failed, вот что получилось{proverka}"
+assert proverka == proverka1, f"test failed, вот что удалось найти вместо-  {proverka}"
 browser.quit()
